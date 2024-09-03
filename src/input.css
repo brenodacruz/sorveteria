@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.h-custom {
+    height: 95vh;
+}
+
+.text-shadow1 {
+    text-shadow: 
+          1px 1px 5px black,
+          2px 2px 5px black,
+          -2px -2px 5px black,
+          -3px 4px 5px black,
+          -2px 5px 5px black;
+}
+  
+.text-shadow{
+    text-shadow: 10px 1px 2px rgba(0, 0, 0, 0.205);
+}
+
+
+body {
+    overflow-x: hidden;
+}
+  

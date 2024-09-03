@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Lobster&family=Raleway+Dots&display=swap" rel="stylesheet">
+    <title>Sorveteria</title>
+</head>
+<body class="flex flex-col items-center font-grandstander">
+    <header class="w-screen h-auto flex justify-center fixed top-20 z-50">
+        <ul class="flex flex-row gap-10 justify-center items-center bg-white w-auto h-28 px-11 text-4xl rounded-[100px] border-solid border-2 border-black duration-1000">
+            <li class="hover:text-pink-600 cursor-pointer duration-300">Início</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300">Sobre</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300">Cardápio</li>
+            <div class="w-40 h-40 bg-[url('img/icone.jpg')] bg-contain bg-no-repeat bg-center rounded-full border-solid border-2 border-black cursor-pointer hover:border-pink-900"></div>
+            <li class="hover:text-pink-600 cursor-pointer duration-300">Produtos</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300">Contato</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300">Endereço</li>
+        </ul>
+    </header>
+    <section class=" grid grid-cols-2 w-screen h-custom bg-[url('img/fundo_sorvete.jpg')] bg-fixed bg-cover bg-no-repeat  items-center">
+        <section class="pl-40">
+            <h1 class="text-[100px] font-black text-shadow  whitespace-nowrap"><span class="bg-yellow-400 py-5 px-10 rounded-full">Saboreie</span><br>O nosso<br>Melhor sorvete!</h1>
+            <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, placeat? Nobis nostrum facere a nesciunt iste accusantium ut architecto voluptatibus, eius hic cupiditate consectetur quidem impedit, provident possimus ratione. Provident?</p>
+            <button class="bg-yellow-300 w-80 h-24 rounded-full border-black border-2 text-3xl font-extrabold flex justify-center items-center mt-10 hover:bg-yellow-400 duration-500">Saiba mais</button>
+        </section>
+        <section class="w-auto h-[700px] bg-[url('img/sorvete.webp')] bg-contain bg-no-repeat rotate-6"></section>
+    </section>
+    <section class="w-40 h-40 bg-blue-100 rounded-full absolute bottom-2 flex justify-center items-center text-5xl text-white text-shadow1 duration-300 hover:cursor-pointer hover:bottom-5">^</section>
+    <section class="w-screen h-custom bg-blue-100 px-10 py-44 grid grid-cols-2 justify-center items-center gap-96">
+        <section class="pl-40 flex flex-col items-center justify-center gap-10">
+            <div class=" h-[900px] w-[900px] bg-[url('img/leite.png')] bg-no-repeat bg-contain rotate-45"></div>
+            <section>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, placeat? Nobis nostrum facere a nesciunt iste accusantium ut architecto voluptatibus, eius hic cupiditate consectetur quidem impedit, provident possimus ratione. Provident?</p>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente molestias quibusdam! Praesentium molestias libero pariatur explicabo nobis, in voluptatum officiis quia cum omnis, repudiandae laudantium culpa est delectus odit?</p>
+                <button class="bg-yellow-300 w-80 h-24 rounded-full border-black border-2 text-3xl font-extrabold flex justify-center items-center mt-10 hover:bg-yellow-400 duration-500">Saiba mais</button>
+            </section>
+        </section>
+        <section class="flex flex-col gap-48">
+            <section>
+                <h1 class="text-7xl font-black text-shadow">Nós nos preocupamos com você!</h1>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, placeat? Nobis nostrum facere a nesciunt iste accusantium ut architecto voluptatibus, eius hic cupiditate consectetur quidem impedit, provident possimus ratione. Provident?</p>
+                <button class="bg-yellow-300 w-80 h-24 rounded-full border-black border-2 text-3xl font-extrabold flex justify-center items-center mt-10 hover:bg-yellow-400 duration-500">Saiba mais</button>
+            </section>
+            <div class=" h-[900px] w-[600px] bg-[url('img/leite2.webp')] bg-no-repeat bg-contain"></div>
+        </section>
+    </section>
+    <section class="w-screen h-custom bg-pink-200 flex flex-col items-center justify-center gap-64">
+        <h1 class="text-7xl font-black text-shadow">Cardápio</h1>
+        <section class="grid grid-cols-3 gap-10">
+            <div class="w-[500px] h-[900px] bg-blue-100 rounded-3xl border-black border-2 flex flex-col justify-center items-center px-10">
+                <div class=" h-[900px] w-[500px] bg-[url('img/cardapio1.png')] bg-no-repeat bg-contain absolute top-[3970px]"></div>
+                <h2 class="text-7xl font-black text-shadow">Cones</h2>
+                <p class="text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quaerat temporibus culpa praesentium omnis, corrupti ab suscipit voluptas id facilis similique quis laborum eaque.</p>
+                <button class="bg-pink-200 w-20 h-20 rounded-full text-3xl border-black border-2 relative top-36 hover:bg-pink-300">➔</button>
+                
+            </div>
+            <div class="w-[500px] h-[900px] bg-blue-100 rounded-3xl border-black border-2 flex flex-col justify-center items-center px-10">
+                <div class=" h-[900px] w-[400px] bg-[url('img/cardapio2.png')] bg-no-repeat bg-contain absolute top-[3970px]"></div>
+                <h2 class="text-7xl font-black text-shadow">Sucos</h2>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora porro blanditiis adipisci omnis dolorem nam, eveniet voluptas voluptate pariatur ipsam, maiores tempore. Cum aut praesentium porro nisi, id reiciendis rem.</p>
+                <button class="bg-pink-200 w-20 h-20 rounded-full text-3xl border-black border-2 relative top-28 hover:bg-pink-300">➔</button>
+            </div>
+            <div class="w-[500px] h-[900px] bg-blue-100 rounded-3xl border-black border-2 flex flex-col justify-center items-center px-10">
+                <div class=" h-[900px] w-[400px] bg-[url('img/cardapio3.webp')] bg-no-repeat bg-contain absolute top-[3970px]"></div>
+                <h2 class="text-7xl font-black text-shadow">Picolé</h2>
+                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, placeat? Nobis nostrum facere a nesciunt iste accusantium ut architecto voluptatibus.</p>
+                <button class="bg-pink-200 w-20 h-20 rounded-full text-3xl border-black border-2 relative top-40 hover:bg-pink-300">➔</button>
+            </div>
+        </section>
+    </section>
+    <section class="w-screen h-custom bg-blue-100"></section>
+</body>
+</html>
