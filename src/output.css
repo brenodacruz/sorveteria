@@ -723,6 +723,10 @@ video {
   height: 13rem;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -1413,6 +1417,14 @@ body {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:relative {
+    position: relative;
+  }
+
+  .max-sm\:top-0 {
+    top: 0px;
+  }
+
   .max-sm\:flex {
     display: flex;
   }
@@ -1421,12 +1433,68 @@ body {
     display: none;
   }
 
+  .max-sm\:h-\[\] {
+    height: ;
+  }
+
+  .max-sm\:h-\[30px\] {
+    height: 30px;
+  }
+
+  .max-sm\:h-\[px\] {
+    height: px;
+  }
+
+  .max-sm\:h-\[60px\] {
+    height: 60px;
+  }
+
+  .max-sm\:h-\[100px\] {
+    height: 100px;
+  }
+
+  .max-sm\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .max-sm\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .max-sm\:h-2 {
+    height: 0.5rem;
+  }
+
+  .max-sm\:h-24 {
+    height: 6rem;
+  }
+
+  .max-sm\:h-32 {
+    height: 8rem;
+  }
+
   .max-sm\:w-\[100px\] {
     width: 100px;
   }
 
   .max-sm\:w-\[200px\] {
     width: 200px;
+  }
+
+  .max-sm\:w-\[30px\] {
+    width: 30px;
+  }
+
+  .max-sm\:w-\[px\] {
+    width: px;
+  }
+
+  .max-sm\:w-\[60px\] {
+    width: 60px;
+  }
+
+  .max-sm\:w-\[300px\] {
+    width: 300px;
   }
 
   .max-sm\:flex-col {
@@ -1439,6 +1507,36 @@ body {
 
   .max-sm\:justify-center {
     justify-content: center;
+  }
+
+  .max-sm\:bg-\[url\(\'img\/leite\.png\'\)\] {
+    background-image: url('img/leite.png');
+  }
+
+  .max-sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .max-sm\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .max-sm\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .max-sm\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .max-sm\:text-\[55px\] {
+    font-size: 55px;
+  }
+
+  .max-sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
