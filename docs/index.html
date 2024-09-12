@@ -13,13 +13,13 @@
     <header class="w-screen h-auto flex justify-center fixed mx-auto top-10 z-50 max-md:hidden">
 
         <ul class="flex flex-row gap-10 justify-center items-center bg-white w-auto h-14 px-11 text-xl rounded-[100px] border-solid border-2 border-black duration-1000 max-lg:text-sm">
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Início</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Sobre</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Cardápio</li>
-            <div class="w-20 h-20 bg-[url('img/icone.jpg')] bg-contain bg-no-repeat bg-center rounded-full border-solid border-2 border-black cursor-pointer hover:border-pink-900"></div>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Produtos</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Contato</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Endereço</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300" id="inicio">Início</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300" id="sobre">Sobre</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300" id="cardapio">Cardápio</li>
+            <div class="w-20 h-20 bg-[url('img/icone.jpg')] bg-contain bg-no-repeat bg-center rounded-full border-solid border-2 border-black cursor-pointer hover:border-pink-900" id="iconecentral"></div>
+            <li class="hover:text-pink-600 cursor-pointer duration-300" id="produtos">Produtos</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300" id="contato">Contato</li>
+            <li class="hover:text-pink-600 cursor-pointer duration-300" id="endereco">Endereço</li>
         </ul>
 
     </header>
@@ -43,7 +43,7 @@
         </ul>
 
     </header>
-    <section class=" grid grid-cols-2 w-screen h-auto bg-[url('img/fundo_sorvete.jpg')] bg-fixed bg-cover bg-no-repeat  items-center pt-52 pb-24 gap-10 max-sm:flex px-5">
+    <section class=" grid grid-cols-2 w-screen h-auto bg-[url('img/fundo_sorvete.jpg')] bg-fixed bg-cover bg-no-repeat  items-center pt-52 pb-24 gap-10 max-sm:flex px-5"  id="iniciopage">
         <section class="pl-40 max-lg:pl-10 max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:p-4">
             <h1 class="text-[60px] font-black text-shadow  whitespace-nowrap max-xl:text-[40px] max-sm:text-[50px]"><span class="bg-yellow-400 py-5 px-10 rounded-full">Saboreie</span><br>O nosso<br>Melhor sorvete!</h1>
             <p class="text-lg max-xl:text-sm max-sm:text-[12px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, placeat? Nobis nostrum facere a nesciunt iste accusantium ut architecto voluptatibus, eius hic cupiditate consectetur quidem impedit, provident possimus ratione. Provident?</p>
@@ -63,14 +63,14 @@
         </section>
         <section class="flex flex-col gap-20 justify-center items-center">
             <section>
-                <h1 class="text-6xl font-black text-shadow max-md:text-4xl max-sm:text-[50px]">Nós nos preocupamos com você!</h1>
+                <h1 class="text-6xl font-black text-shadow max-md:text-4xl max-sm:text-[50px]" id="sobrepage">Nós nos preocupamos com você!</h1>
                 <p class="text-base max-md:text-sm max-sm:text-[12px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, placeat? Nobis nostrum facere a nesciunt iste accusantium ut architecto voluptatibus, eius hic cupiditate consectetur quidem impedit, provident possimus ratione. Provident?</p>
                 <button class="bg-yellow-300 w-40 h-14 rounded-full border-black border-2 text-base font-extrabold flex justify-center items-center mt-10 hover:bg-yellow-400 duration-500">Saiba mais</button>
             </section>
             <div class=" h-[30vw] w-[30vw] bg-[url('img/leite2.webp')] bg-no-repeat bg-contain max-sm:hidden"></div>
         </section>
     </section>
-    <div class="w-screen h-64 bg-[url('img/passagem.png')] bg-contain bg-repeat-x max-sm:h-32"></div>
+    <div class="w-screen h-64 bg-[url('img/passagem.png')] bg-contain bg-repeat-x max-sm:h-32" id="cardapiopage"></div>
     <section class="w-screen h-auto bg-pink-200 flex flex-col items-center justify-center gap-10 pb-40 pt-10 max-sm:pt-0 max-sm:pb-20">
         <h1 class="text-7xl font-black text-shadow">Cardápio</h1>
         <section class="grid grid-cols-3 gap-10 max-lg:grid-cols-1">
@@ -97,7 +97,7 @@
     </section>
     <section class="w-screen h-auto bg-[#DAEEFF] flex flex-col justify-center items-center py-40 max-sm:py-20">
 
-        <h1 class="text-7xl font-black text-shadow">Produtos</h1>
+        <h1 class="text-7xl font-black text-shadow" id="produtospage">Produtos</h1>
 
         <div class="w-[90dvw] h-dvh py-10 gap-10 bg-pink-200 rounded-3xl grid grid-row items-center place-items-center">
 
@@ -143,7 +143,7 @@
 
         <div class="w-[9vw] h-[9vw] max-lg:w-20 max-lg:h-20 bg-[url('img/icone.jpg')] bg-contain rounded-full bg-no-repeat max-md:hidden"></div>
         <div class="border-l-2 border-black h-[5vw] flex justify-center items-center px-10 ml-10 flex-col max-md:border-l-0 max-md:ml-0 max-md:px-0">
-            <h2 class="text-[16px] font-bold text-shadow">Sorveteria</h2>
+            <h2 class="text-[16px] font-bold text-shadow" id="enderecopage">Sorveteria</h2>
             <p class="text-[16px] font-medium">Rua das Neves, 123</p>
             <p class="text-[16px] font-medium">Bairro dos Sabores, Cidade Gelada, SP</p>
             <p class="text-[16px] font-medium">CEP: 01234-567</p>
@@ -151,5 +151,7 @@
 
     </section>
     <footer class="w-screen h-10 bg-gray-950 flex justify-center items-center"><p class="text-white text-lg max-lg:text-sm font-mono max-md:text-[10px]">&#169; 2024 Projeto feito por <a href="https://www.linkedin.com/in/breno-henrique-32226a275/" target="_blank" class="text-yellow-400">Breno Henrique</a><br> por fins de aprendizado e portfólio</p></footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
