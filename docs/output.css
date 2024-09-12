@@ -582,12 +582,12 @@ video {
   z-index: 20;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .z-40 {
   z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-auto {
@@ -775,8 +775,8 @@ video {
   width: 100vw;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-\[70vw\] {
+  width: 70vw;
 }
 
 .-rotate-12 {
@@ -914,6 +914,11 @@ video {
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
 }
 
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
 .bg-gray-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(3 7 18 / var(--tw-bg-opacity));
@@ -922,16 +927,6 @@ video {
 .bg-pink-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
-}
-
-.bg-pink-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 39 119 / var(--tw-bg-opacity));
-}
-
-.bg-pink-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(131 24 67 / var(--tw-bg-opacity));
 }
 
 .bg-slate-50 {
@@ -957,20 +952,6 @@ video {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
-}
-
-.bg-pink-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(157 23 77 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
 }
 
 .bg-\[url\(\'img\/cardapio1\.png\'\)\] {
@@ -1218,25 +1199,8 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
-.opacity-25 {
-  opacity: 0.25;
-}
-
-.opacity-10 {
-  opacity: 0.1;
-}
-
-.opacity-5 {
-  opacity: 0.05;
-}
-
 .opacity-50 {
   opacity: 0.5;
-}
-
-.blur {
-  --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .duration-1000 {
@@ -1452,6 +1416,10 @@ body {
     font-size: 12px;
   }
 
+  .max-sm\:text-\[40px\] {
+    font-size: 40px;
+  }
+
   .max-sm\:text-\[50px\] {
     font-size: 50px;
   }
@@ -1459,6 +1427,10 @@ body {
   .max-sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .max-sm\:text-\[0px\] {
+    font-size: 0px;
   }
 }
 
