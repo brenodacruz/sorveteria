@@ -24,25 +24,30 @@
 
     </header>
 
-    <header class="w-screen h-auto flex items-center justify-center fixed mx-auto top-10 z-50 md:hidden">
+    <header class="w-screen h-auto flex items-center justify-center fixed mx-auto top-10 z-50 md:hidden" id="mobile">
         
-        <section class="flex h-16 justify-center items-center hover:cursor-pointer">
+        <section class="flex h-16 justify-center items-center hover:cursor-pointer" id="menuAbrir">
             <div class="w-20 h-20 bg-[url('img/icone.jpg')] bg-contain bg-no-repeat bg-center rounded-full border-solid border-2 border-black  z-50"></div>
             <div class=" flex w-20 h-auto bg-white justify-end border-solid border-2 border-black rounded-md ml-[-17px]">
                 <div class="w-14 h-14 bg-[url('img/menu.webp')] bg-contain bg-no-repeat bg-center bg-white rounded-md"></div>
             </div>
         </section>
 
-        <ul class="flex flex-row gap-10 justify-center items-center bg-red-900 w-auto h-14 px-11 text-xl rounded-[100px] border-solid border-2 border-black duration-1000 max-lg:text-sm hidden">
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Início</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Sobre</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Cardápio</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Produtos</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Contato</li>
-            <li class="hover:text-pink-600 cursor-pointer duration-300">Endereço</li>
-        </ul>
-
+        <section class="bottom-0 left-0 fixed bg-white w-[50vw] h-dvh px-11 py-20 border-solid border-r-2 border-black duration-1000 z-50 hidden" id="menu">
+            <ul class="flex flex-col gap-10 text-start text-4xl" id="listaMenu">
+                <li class="duration-300 rounded-xl p-2" id="menuFechar">X</li>
+                <li class="duration-300 inicioMobile rounded-xl p-2">Início</li>
+                <li class="duration-300 sobreMobile rounded-xl p-2">Sobre</li>
+                <li class="duration-300 cardapioMobile rounded-xl p-2">Cardápio</li>
+                <li class="duration-300 produtosMobile rounded-xl p-2">Produtos</li>
+                <li class="duration-300 contatoMobile rounded-xl p-2">Contato</li>
+                <li class="duration-300 enderecoMobile rounded-xl p-2">Endereço</li>
+            </ul>
+        </section>
+        
+        
     </header>
+    <section class="bg-gray-600 opacity-50 h-screen w-screen fixed z-40 hidden" id="embacar"></section>
     <section class=" grid grid-cols-2 w-screen h-auto bg-[url('img/fundo_sorvete.jpg')] bg-fixed bg-cover bg-no-repeat  items-center pt-52 pb-24 gap-10 max-sm:flex px-5"  id="iniciopage">
         <section class="pl-40 max-lg:pl-10 max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:p-4">
             <h1 class="text-[60px] font-black text-shadow  whitespace-nowrap max-xl:text-[40px] max-sm:text-[50px]"><span class="bg-yellow-400 py-5 px-10 rounded-full">Saboreie</span><br>O nosso<br>Melhor sorvete!</h1>
@@ -150,8 +155,9 @@
         </div>
 
     </section>
-    <footer class="w-screen h-10 bg-gray-950 flex justify-center items-center"><p class="text-white text-lg max-lg:text-sm font-mono max-md:text-[10px]">&#169; 2024 Projeto feito por <a href="https://www.linkedin.com/in/breno-henrique-32226a275/" target="_blank" class="text-yellow-400">Breno Henrique</a><br> por fins de aprendizado e portfólio</p></footer>
+    <footer class="w-screen h-10 bg-gray-950 flex justify-center items-center"><p class="text-white text-lg max-lg:text-sm font-mono max-md:text-[10px]">&#169; 2024 Projeto feito por <a href="https://www.linkedin.com/in/breno-henrique-32226a275/" target="_blank" class="text-yellow-400">Breno Henrique</a> por fins de aprendizado e portfólio</p></footer>
 
-    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+    <script src="menu.js"></script>
 </body>
 </html>

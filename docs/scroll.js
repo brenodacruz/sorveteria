@@ -1,10 +1,13 @@
+//Telas maiores
 var inicio = document.getElementById('inicio')
 var iniciopage = document.getElementById('iniciopage')
 var icone = document.getElementById('iconecentral')
 
+
 inicio.addEventListener('click', function(){
     iniciopage.scrollIntoView({behavior: 'smooth'})
 })
+
 
 icone.addEventListener('click', function(){
     iniciopage.scrollIntoView({behavior: 'smooth'})
@@ -38,5 +41,38 @@ endereco.addEventListener('click', function(){
     enderecopage.scrollIntoView({behavior: 'smooth'})
 })
 contato.addEventListener('click', function(){
+    enderecopage.scrollIntoView({behavior: 'smooth'})
+})
+
+//Telas menores (Menu Mobile)
+
+var iniciomobile = document.querySelector('.inicioMobile')
+iniciomobile.addEventListener('click', function(){
+    iniciopage.scrollIntoView({behavior: 'smooth'})
+
+})
+
+var sobreMobile = document.querySelector('.sobreMobile')
+sobreMobile.addEventListener('click', function(){
+    sobrepage.scrollIntoView({behavior: 'smooth'})
+})
+
+var cardapioMobile = document.querySelector('.cardapioMobile')
+cardapioMobile.addEventListener('click', function(){
+    cardapiopage.scrollIntoView({behavior: 'smooth'})
+})
+
+var produtosMobile = document.querySelector('.produtosMobile')
+produtosMobile.addEventListener('click', function(){
+    produtospage.scrollIntoView({behavior: 'smooth'})
+})
+
+var contatoMobile = document.querySelector('.contatoMobile')
+contatoMobile.addEventListener('click', function(){
+    enderecopage.scrollIntoView({behavior: 'smooth'})
+})
+
+var enderecoMobile = document.querySelector('.enderecoMobile')
+enderecoMobile.addEventListener('click', function(){
     enderecopage.scrollIntoView({behavior: 'smooth'})
 })
